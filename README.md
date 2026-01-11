@@ -32,7 +32,9 @@ pip install -e .
 Ou utiliser le notebook présent dans /notebooks.
 
 ## Utilisation :
-
+```bash
+python src/train.py
+```
 L’entraînement et l’évaluation des modèles ont été réalisés principalement à l’aide de notebooks Jupyter, disponibles dans le dossier /notebooks. Cette approche facilite l’exploration des données, l’analyse des résultats et la visualisation des performances des modèles.
 
 Le pipeline expérimental comprend :
