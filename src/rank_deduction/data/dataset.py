@@ -52,7 +52,7 @@ class ScoreboardDataset(Dataset):
     
         crop = cv2.resize(
             crop,
-            (6000, 500),
+            (500, 50),
             interpolation=cv2.INTER_CUBIC
         )
     
