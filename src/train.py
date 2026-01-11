@@ -36,13 +36,15 @@ def get_cv():
     return cv
 
 def main():
-    if not os.listdir("outputs") :
+    file_path = "outputs/stats.csv"
+
+    if not os.path.exists(file_path):
         print("stats.csv doesn't exist")
         path = "data"
         dataset = get_data(path)
         create_csv(dataset)
-
-    df = pd.read_csv("outputs/stats.csv")
+        
+    df = pd.read_csv(file_path)
 
     X = df[FEATURES]
     y = df["rank"]
