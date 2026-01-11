@@ -1,4 +1,4 @@
-# Détection de rang sur League of Legends
+# Déduction de rang sur League of Legends
 
 ## Présentation
 Ce projet a pour but de prédire le rang actuel d'un joueur de League of Legends à partir 
